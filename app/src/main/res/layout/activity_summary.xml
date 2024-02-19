@@ -1,31 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/linear_gradient"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="36dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your details" />
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/activity_summary_heading"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/tv_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome mr example" />
+        android:layout_marginTop="48dp"
+        android:text="@string/activity_summary_greeting_text"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/tv_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="test@gmail.com" />
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/activity_summary_email_text"
+        android:textColor="@color/blue_accent"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/tv_phone_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="12345 12345" />
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/activity_summary_phone_number_text"
+        android:textColor="@color/blue_accent"
+        android:textSize="16sp" />
 
 </LinearLayout>
